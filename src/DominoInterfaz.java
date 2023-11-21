@@ -1,6 +1,6 @@
 
 public abstract class DominoInterfaz {
-    protected Domino domino;
+    public final Domino domino;
 
     public DominoInterfaz(Domino domino) {
         this.domino = domino;
