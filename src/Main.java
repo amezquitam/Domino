@@ -7,7 +7,7 @@ public class Main {
         DominoInterfaz interfaz = new DominoJOptionPane(domino);
 
         interfaz.agregarJugador("jugador 1", new JugadorArtificial(interfaz, "robin"));
-        interfaz.agregarJugador("jugador 2", new JugadorArtificial(interfaz, "nier"));
+        interfaz.agregarJugador("jugador 2", new JugadorNatural(interfaz));
 
         domino.repartirFichas();
 
