@@ -41,7 +41,5 @@ public abstract class DominoInterfaz {
     public abstract void compMensaje(String mensaje);
 
     public abstract String enviarMensajeCompuestoComoPregunta();
-
-    public abstract void enviarMensajeCompuestoComoMensaje();
     public abstract String enviarMensajeCompuestoComoPreguntaMultiple(String... opciones);
 }

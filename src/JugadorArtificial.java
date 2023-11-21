@@ -1,5 +1,5 @@
 class JugadorArtificial extends Jugador {
-    private String nombre;
+    private final String nombre;
     public JugadorArtificial(DominoInterfaz dominoInterfaz, String nombre) {
         super(dominoInterfaz);
         this.nombre = nombre;

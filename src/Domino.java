@@ -1,9 +1,9 @@
 import java.util.*;
 
 class Domino {
-    private LinkedList<FichaEnlazada> mesa;
-    private List<Jugador> jugadores;
-    private List<Ficha> fichas;
+    private final LinkedList<FichaEnlazada> mesa;
+    private final List<Jugador> jugadores;
+    private final List<Ficha> fichas;
     private int turno;
 
     public Domino() {

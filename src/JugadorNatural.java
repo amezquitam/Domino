@@ -75,7 +75,7 @@ public class JugadorNatural extends Jugador {
             dominoInterfaz.compMensaje("Desea agregar la pieza seleccionada al final o al inicio?");
             dominoInterfaz.terminarMensajeCompuesto();
             respuesta = dominoInterfaz.enviarMensajeCompuestoComoPreguntaMultiple("inicio", "final");
-            boolean laPuso = false;
+            boolean laPuso;
             if (respuesta.equals("inicio")) {
                 laPuso = dominoInterfaz.domino.ponerAlInicio(aMover);
             } else {

@@ -1,5 +1,4 @@
 import javax.swing.*;
-import java.util.Arrays;
 
 public class DominoJOptionPane extends DominoInterfaz {
     private boolean debeCerrarse = false;
@@ -41,11 +40,6 @@ public class DominoJOptionPane extends DominoInterfaz {
     @Override
     public String enviarMensajeCompuestoComoPregunta() {
         return JOptionPane.showInputDialog(mensajeCompuesto);
-    }
-
-    @Override
-    public void enviarMensajeCompuestoComoMensaje() {
-        JOptionPane.showMessageDialog(null, mensajeCompuesto);
     }
 
     @Override

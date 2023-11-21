@@ -1,6 +1,6 @@
 public class FichaEnlazada {
     private FichaEnlazada fichaIzq;
-    private Ficha ficha;
+    private final Ficha ficha;
     private FichaEnlazada fichaDer;
     private boolean volteada;
 

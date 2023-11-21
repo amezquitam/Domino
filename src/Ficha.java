@@ -10,18 +10,6 @@ public class Ficha {
         this.der = der;
     }
 
-    public int valorEnComun(Ficha otra) {
-        if (izq == otra.izq) return izq;
-        if (izq == otra.der) return izq;
-        if (der == otra.izq) return der;
-        if (der == otra.der) return der;
-        return -1;
-    }
-
-    public boolean tieneValorEnComun(Ficha otra) {
-        return izq == otra.izq || izq == otra.der || der == otra.izq || der == otra.der;
-    }
-
     public boolean isDouble() {
         return izq == der;
     }
