@@ -1,6 +1,6 @@
 import java.util.*;
 
-class Domino {
+public class Domino {
     private final LinkedList<FichaEnlazada> mesa;
     private final List<Jugador> jugadores;
     private final List<Ficha> fichas;
